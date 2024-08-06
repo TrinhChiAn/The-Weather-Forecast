@@ -1,0 +1,11 @@
+.AirConditon-title{
+    margin-top: 57px;
+}
+.AirConditon-title-56{
+    margin-top: 55px;
+}
+.AirCondition-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+.today-forecast{
+    color: rgb(4, 196, 224);
+    font-size: 12px;
+    font-weight: 400;
+}
+.today-forecast--content{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}

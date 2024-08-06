@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-title{
+    background: transparent;
+    height: 26px;
+    width: 119px;
+  }
+  .header-time{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .header-logo{
+    height: 30px;
+  }
+  .logo{
+    height: inherit;
+  }

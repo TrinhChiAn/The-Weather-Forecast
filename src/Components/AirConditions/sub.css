@@ -1,0 +1,18 @@
+.AirCondition p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.AirCondition h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-top: 22px;
+}
+.AirCondition{
+    margin-top: 26px;
+}
+.AirCondition-icon{
+    margin-right: 5px;
+}
