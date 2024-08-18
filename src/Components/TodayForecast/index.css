@@ -8,3 +8,9 @@
     justify-content: center;
     margin-top: 12px;
 }
+.today-forecast--content ul{
+    display: flex;
+}
+.today-forecast--content ul li{
+    justify-content: center;
+}

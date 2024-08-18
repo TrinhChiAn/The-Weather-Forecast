@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function CurrentWeather(props: any) {
+    const iconCode = props.icon;
+    const iconUrl = `http://openweathermap.org/img/wn/${iconCode}.png`;
     return (
         <div>
             <h1 className='content-title'>Current Weather</h1>
@@ -16,7 +18,7 @@ function CurrentWeather(props: any) {
                     <h4>{props.sky}</h4>
                 </div>
                 <div className="current-weather-content--col3">
-                    <span className='current-weather-icon'><FontAwesomeIcon icon={props.icon} /></span>
+                    <span className='current-weather-icon'><img src={iconUrl} alt="Weather Icon" /></span>
                 </div>
             </div>
         </div>

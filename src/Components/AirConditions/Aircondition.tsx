@@ -8,10 +8,10 @@ function AirConditon(props: any) {
         <div>
             <h1 className='content-title AirConditon-title-56'>Air Conditioner</h1>
             <div className="AirCondition-content">
-                <SubAir content="12 °C" title="Real Feel" icon={faTemperatureHalf} />
-                <SubAir content="3.38 m/s" title="Wind" icon={faWind}/>
-                <SubAir content="68 %" title="Clouds" icon={faCloudflare}/>
-                <SubAir content="94 %" title="Humidity" icon={faDroplet}/>
+                <SubAir content={props.RealFeel + ' °C'} title="Real Feel" icon={faTemperatureHalf} />
+                <SubAir content={props.Wind + ' m/s'} title="Wind" icon={faWind} />
+                <SubAir content={props.Clouds + ' %'} title="Clouds" icon={faCloudflare} />
+                <SubAir content={props.Humidity + ' %'} title="Humidity" icon={faDroplet} />
             </div>
         </div>
     )
