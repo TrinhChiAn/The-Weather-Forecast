@@ -16,7 +16,7 @@ function WeeklyForecast(props: any) {
             const datePart = parts[0];
             const [hours, minutes, giay] = timePart.split(':');
             const [year, munth, day] = datePart.split('-');
-            // Lọc các mục có cùng ngày và giờ lớn hơn giờ hiện tại
+            // Lọc 00 giờ các ngày
             return hours == '00' && day>currentDay;
         });
     };

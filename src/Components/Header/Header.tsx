@@ -23,8 +23,6 @@ function Header(props: any) {
   const [currentTime, setCurrentTime] = useState<string>(time);
   const [currentDate, setCurrenDate] = useState<string>(date);
 
-  // Hàm tính toán thời gian địa phương từ timezone
-
   // Cập nhật thời gian mỗi phút
   useEffect(() => {
     const updateTime = () => {

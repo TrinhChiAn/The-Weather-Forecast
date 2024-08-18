@@ -48,10 +48,8 @@ function App() {
     const day = date.getDate();
     const monthIndex = date.getMonth();
 
-    // Tạo mảng các tên tháng
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-    // Lấy tên tháng từ chỉ số
     const monthName = months[monthIndex];
 
     return `Today, ${day} ${monthName}`;

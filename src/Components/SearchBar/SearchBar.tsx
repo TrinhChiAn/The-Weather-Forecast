@@ -29,7 +29,7 @@ function SearchBar(props: any) {
 
         if (value) {
             const cityResults = await fetchCities(value);
-            setCities(cityResults.data); // Giả sử data chứa mảng các thành phố
+            setCities(cityResults.data);
         } else {
             setCities([]);
         }
