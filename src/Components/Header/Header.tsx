@@ -19,7 +19,6 @@ function Header(props: any) {
   }
   const date = getLocalDate(7 * 3600);
   const time = getLocalTime(7 * 3600);
-  console.log(date)
   const [currentTime, setCurrentTime] = useState<string>(time);
   const [currentDate, setCurrenDate] = useState<string>(date);
 

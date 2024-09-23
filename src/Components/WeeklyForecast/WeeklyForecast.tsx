@@ -17,7 +17,7 @@ function WeeklyForecast(props: any) {
             const [hours, minutes, giay] = timePart.split(':');
             const [year, munth, day] = datePart.split('-');
             // Lọc 00 giờ các ngày
-            return hours == '00' && day>currentDay;
+            return hours == '00' && day > currentDay;
         });
     };
 
@@ -34,13 +34,12 @@ function WeeklyForecast(props: any) {
         <div>
             <h1 className='content-title'>Weekly Forecast</h1>
             <div className='weeklyforecast-content'>
-                
-            <ul>
+                <ul>
                     {
                         nextDays.map((item, index) => {
                             return (
                                 <li key={index}>
-                                    <SubWeekly icon={item.weather[0].icon} date={daysOfWeek[convertTimestampToDate(item.dt,props.timezone)]} sky={item.weather[0].description} tem={`${item.main.temp} °C`} cloud={` ${item.clouds.all} %`} wind={`${item.wind.speed} m/s`} humidity={` ${item.main.humidity} %`} />
+                                    <SubWeekly icon={item.weather[0].icon} date={daysOfWeek[convertTimestampToDate(item.dt, props.timezone)]} sky={item.weather[0].description} tem={`${item.main.temp} °C`} cloud={` ${item.clouds.all} %`} wind={`${item.wind.speed} m/s`} humidity={` ${item.main.humidity} %`} />
                                 </li>
                             )
                         })

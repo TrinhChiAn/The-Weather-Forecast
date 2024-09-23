@@ -3,7 +3,6 @@ import './App.css';
 import Header from './Components/Header/Header';
 import SearchBar from './Components/SearchBar/SearchBar';
 import CurrentWeather from './Components/CurrentWeather/CurrentWeather';
-import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import AirConditon from './Components/AirConditions/Aircondition';
 import TodayForecast from './Components/TodayForecast/TodayForecast';
 import WeeklyForecast from './Components/WeeklyForecast/WeeklyForecast';
